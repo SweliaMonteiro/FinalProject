@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1-OXSlVFQFRTTVE_89Wg2-YZk4YwcjDuv/view?usp=sharing'
-export_file_name = 'view'
+export_file_url = 'https://drive.google.com/file/d/1-1XL-eFNqfyC5DGygwoz2TrKALTMXuC1/view?usp=sharing'
+export_file_name = 'alexnet'
 
 classes = ['Betul LightHouse', 'Buddhist Temple', 'Mae De Deus Church', 'Mahadev Temple', 'Mallikarjuna Temple', 'Museum House, Torda', 'Reis Magos Fort', 'Shree Shantadurga Temple', 'St.Cajetan Church', 'Sunaparanta, Goa Arts Centre']
 path = Path(__file__).parent
