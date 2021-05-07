@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-#/content/drive/MyDrive/Project/landmarks/alexnet.pkl  
-export_file_url = 'https://drive.google.com/file/d/1-CZXUyOHK-arsR2warZ6nlOky5NIYuH_/view?usp=sharing'
+
+export_file_url = 'https://drive.google.com/file/d/1-zclAbo65f4enZYplz1d6MgW4OTuG2Gp/view?usp=sharing'
 export_file_name = 'export.pkl'
 
 classes = ['Betul LightHouse', 'Buddhist Temple', 'Mae De Deus Church', 'Mahadev Temple', 'Mallikarjuna Temple', 'Museum House, Torda', 'Reis Magos Fort', 'Shree Shantadurga Temple', 'St.Cajetan Church', 'Sunaparanta, Goa Arts Centre']
