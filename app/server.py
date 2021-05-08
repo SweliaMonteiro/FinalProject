@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/biln76gzlpvttzs/export.pkl?dl=1'
+export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 export_file_name = 'export.pkl'
 
 classes = ['Betul lighthouse', 'Buddhist Temple', 'Mae de Deus Church', 'Mahadev Temple', 'Mallikarjuna Temple', 'Museum House, Torda', 'Reis Magos Fort', 'Shree Shantadurga Temple, Fatorpa', 'St. Cajetan Church', 'Sunaparanta, Goa Arts Centre']
