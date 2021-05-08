@@ -3,14 +3,14 @@
   <meta charset='utf-8'>
   <link rel='stylesheet' href='../static/style.css'>
   <script src='../static/client.js'></script>
+  <title>Landmarks</title>
 </head>
 <body>
 <div>
   <div class='center'>
-    <div class='title'>Classify Bear Images 🐻</div>
+    <div class='title'><strong>Geo-Landmark Classifier</strong></div>
     <p>
-      Use images of <strong>teddy</strong> bears, <strong>black</strong> bears, <strong>grizzly</strong> bears, or
-      all three!
+      Upload an image
     </p>
     <div class='content'>
       <div class='no-display'>
@@ -22,9 +22,9 @@
                onchange='showPicked(this)'>
       </div>
       <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
-      <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
-      </div>
+      <!--<div class='upload-label'>
+        <label id='upload-label'>No file chosen</label> 
+      </div> -->
       <div>
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
       </div>
