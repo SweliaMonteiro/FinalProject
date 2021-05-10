@@ -32,7 +32,7 @@ function analyze() {
       if(int(${response["prob"][0]}) > 70){
       el("result-label").innerHTML = `Result = ${response["result"]}` ;}
       else{
-      el("result-label").innerHTML = `Result = Selected image can't be predicted` ;}
+      el("result-label").innerHTML = `Selected image can't be predicted` ;}
     }
     el("analyze-button").innerHTML = "Analyze";
   };
