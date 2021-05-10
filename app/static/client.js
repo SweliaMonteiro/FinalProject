@@ -15,6 +15,7 @@ function showPicked(input) {
 }
 
 function analyze() {
+  var uploadFiles = el("file-input").files;
   if (uploadFiles.length !== 1) alert("Please select a file to analyze!");
 
   el("analyze-button").innerHTML = "Analyzing...";
@@ -28,9 +29,8 @@ function analyze() {
   xhr.onload = function(e) {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
-      el("result-label").innerHTML = `Prediction = ${response["result"]}`;
+      el("result-label").innerHTML = `Result = response`;
     }
-    
     el("analyze-button").innerHTML = "Analyze";
   };
 
