@@ -29,7 +29,7 @@ function analyze() {
   xhr.onload = function(e) {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
-      if(int(response["prob"].slice(7,12)) > 90) {
+      if((response["prob"].slice(7,12)) > 90) {
       el("result-label").innerHTML = `Result = ${response["result"]}` ;
     
     //  console.log(response["prob"].slice(7,12));
