@@ -29,14 +29,13 @@ function analyze() {
   xhr.onload = function(e) {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
-   //   if(int(response["prob"][0]) > 70) {
+      if(int(response["prob"].slice(7,12)) > 90) {
       el("result-label").innerHTML = `Result = ${response["result"]}` ;
-     // console.log((${response["prob"][0]}));
-      console.log(response["prob"]);
-      console.log(response["prob"].slice(7,12));
-   // }
-    //  else{
-    //  el("result-label").innerHTML = `Selected image can't be predicted` ;}
+    
+    //  console.log(response["prob"].slice(7,12));
+    }
+      else{
+      el("result-label").innerHTML = `Selected image can't be predicted` ;}
     }
     el("analyze-button").innerHTML = "Analyze";
   };
