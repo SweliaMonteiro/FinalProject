@@ -32,7 +32,8 @@ function analyze() {
    //   if(int(response["prob"][0]) > 70) {
       el("result-label").innerHTML = `Result = ${response["result"]}` ;
      // console.log((${response["prob"][0]}));
-      console.log(response["prob"][7, 12]);
+      console.log(response["prob"]);
+      console.log(response["prob"][7:10]);
    // }
     //  else{
     //  el("result-label").innerHTML = `Selected image can't be predicted` ;}
