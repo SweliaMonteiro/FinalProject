@@ -28,8 +28,12 @@ function analyze() {
   };
   xhr.onload = function(e) {
     if (this.readyState === 4) {
+      console.log(e.target.responseText);
       var response = JSON.parse(e.target.responseText);
-      el("result-label").innerHTML = "Result = " + response;
+      console.log(response);
+      el("result-label").innerHTML = `Result = ${response["result"]}` ;
+      console.log($response.result);
+      console.log($response);
     }
     el("analyze-button").innerHTML = "Analyze";
   };
