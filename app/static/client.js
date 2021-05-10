@@ -15,15 +15,6 @@ function showPicked(input) {
 }
 
 function analyze() {
-  
-      ////////////////////////////////////////
-    
-    const predictions = this.state.predictions || [];
-
-        if (predictions.length > 0) {
-
-            const predictionItems = predictions.map((item) =>  {item.class} ({item.prob * 100}%) } /////////////////////////
-  var uploadFiles = el("file-input").files;
   if (uploadFiles.length !== 1) alert("Please select a file to analyze!");
 
   el("analyze-button").innerHTML = "Analyzing...";
