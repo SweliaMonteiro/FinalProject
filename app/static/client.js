@@ -33,7 +33,7 @@ function analyze() {
       el("result-label").innerHTML = `Result = ${response["result"]}` ;
      // console.log((${response["prob"][0]}));
       console.log(response["prob"]);
-      console.log(response["prob"][7:10]);
+      console.log(response["prob"].slice(7,12));
    // }
     //  else{
     //  el("result-label").innerHTML = `Selected image can't be predicted` ;}
