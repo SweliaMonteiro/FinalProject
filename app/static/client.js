@@ -29,8 +29,17 @@ function analyze() {
   xhr.onload = function(e) {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
-      el("result-label").innerHTML = `Prediction = ${response["result"]} , ${response["probability"]}`;
+      el("result-label").innerHTML = `Prediction = ${response["result"]}`;
     }
+    ////////////////////////////////////////
+    
+    const predictions = this.state.predictions || [];
+
+        if (predictions.length > 0) {
+
+            const predictionItems = predictions.map((item) =>
+                <li>{item.class} ({item.prob * 100}%) </li> /////////////////////////
+    
     el("analyze-button").innerHTML = "Analyze";
   };
 
