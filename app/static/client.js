@@ -29,7 +29,7 @@ function analyze() {
   xhr.onload = function(e) {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
-      if(${response["prob"][0]} > 70){
+      if(int(${response["prob"][0]}) > 70){
       el("result-label").innerHTML = `Result = ${response["result"]}` ;}
       else{
       el("result-label").innerHTML = `Result = Selected image can't be predicted` ;}
