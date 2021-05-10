@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-zclAbo65f4enZYplz1d6MgW4OTuG2Gp'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1eTdbYvohNuj31Zjtz2RW0Degj3WMHu35'
+export_file_name = 'model.pkl'
 
 classes = ['Betul lighthouse', 'Buddhist Temple', 'Mae de Deus Church', 'Mahadev Temple', 'Mallikarjuna Temple', 'Museum House, Torda', 'Reis Magos Fort', 'Shree Shantadurga Temple, Fatorpa', 'St. Cajetan Church', 'Sunaparanta, Goa Arts Centre']
 path = Path(__file__).parent
