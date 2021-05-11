@@ -30,7 +30,7 @@ function analyze() {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
       console.log(response["prob"].slice(7,12));
-      if((response["prob"].slice(7,12)) > 90) {
+      if((response["prob"].slice(7,12)) > 80) {
       el("result-label").innerHTML = `Result = ${response["result"]}` ;
     
     //  console.log(response["prob"].slice(7,12));
