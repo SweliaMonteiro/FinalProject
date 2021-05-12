@@ -1,5 +1,11 @@
+
 body {
-    background-color: #fff;
+  width: auto;
+  height: auto;
+  background-image: url('image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .no-display {
@@ -13,52 +19,64 @@ body {
     font-size: 14px;
 }
 
+
 .title {
-    font-size: 40px;
+    font-size: 30px;
+    font-family: sans; 
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
-}
+    color: #FFFFFF;
+    width: 350px;
+    height: 40px;
+    border: outset 2px #FFA500;
+    border-radius: 4px;
+    background-color: #000000;
+    margin: auto;
+} 
 
 .content {
-    margin-top: 5em;
+    margin-top: 10em;
 }
 
 .analyze {
     margin-top: 5em;
 }
 
-.upload-label {
+
+/* .upload-label {
     padding: 10px;
     font-size: 12px;
-}
+    color: #FFFFFF;
+} */
 
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 25px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px black;
 }
 
 button.choose-file-button {
     width: 200px;
     height: 40px;
     border-radius: 2px;
-    background-color: #ffffff;
-    border: solid 1px #7052CB;
+    background-color: #FFA500;
+    border: solid 1px #000000;
     font-size: 13px;
-    color: #7052CB;
+    color: #000000;
 }
 
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 1px #FF8C00;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #000000;;
     font-size: 13px;
-    color: #ffffff;
+    color: #FF8C00;
 }
 
 button:focus {
-    outline: 0;
+    outline: 1;
 }
