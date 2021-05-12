@@ -78,5 +78,5 @@ button.analyze-button {
 }
 
 button:focus {
-    outline: 1;
+    outline: 0;
 }
