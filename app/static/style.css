@@ -21,11 +21,9 @@ body {
 
 
 .title {
-    font-size: 30px;
+    font-size: 35px;
     font-family: sans; 
     color: #FFFFFF;
-    width: 350px;
-    height: 40px;
     border: outset 2px #FFA500;
     border-radius: 5px;
     background-color: #000000;
@@ -50,8 +48,8 @@ body {
 .result-label {
     margin-top: 0.5em;
     padding: 10px; 
-    font-size: 25px;
-   -webkit-text-stroke: 0.5px white; 
+    font-size: 28px;
+   -webkit-text-stroke: 0.09px #FFA500; 
 }
 
 button.choose-file-button {
