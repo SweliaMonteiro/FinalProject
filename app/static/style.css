@@ -2,7 +2,7 @@
 body {
   width: auto;
   height: auto;
-  background-image: url('app/static/image.PNG');
+  background-image: url('image.PNG');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%; 
@@ -51,7 +51,7 @@ body {
 
 .result-label {
     margin-top: 0.5em;
-    padding: 10px;
+    padding: 10px; 
     font-size: 25px;
     color: #FFFFFF;
     -webkit-text-stroke: 0.5px black;
@@ -75,6 +75,7 @@ button.analyze-button {
     background-color: #000000;;
     font-size: 13px;
     color: #FF8C00;
+    margin-top: 0.5em;
 }
 
 button:focus {
