@@ -2,10 +2,10 @@
 body {
   width: auto;
   height: auto;
- /* background-image: url('app/static/image.jpg');
+  background-image: url('app/static/image.PNG');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%; */
+  background-size: 100% 100%; 
 }
 
 .no-display {
@@ -43,11 +43,11 @@ body {
 }
 
 
-/* .upload-label {
+.upload-label {
     padding: 10px;
     font-size: 12px;
     color: #FFFFFF;
-} */
+} 
 
 .result-label {
     margin-top: 0.5em;
