@@ -49,6 +49,8 @@ body {
 }
 
 button.choose-file-button {
+    width: 200px;
+    height: 40px;
     border-radius: 2px;
     background-color: #FFA500;
     border: solid 1px #000000;
@@ -57,6 +59,8 @@ button.choose-file-button {
 }
 
 button.analyze-button {
+    width: 200px;
+    height: 40px;
     border: solid 1px #FF8C00;
     border-radius: 2px;
     background-color: #000000;;
