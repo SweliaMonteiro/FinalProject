@@ -1,7 +1,5 @@
 
 body {
-  width: auto;
-  height: auto;
   background-image: url('image.PNG');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,21 +11,19 @@ body {
 }
 
 .center {
-    margin: auto;
-    padding: 10px 50px;
     text-align: center;
-    font-size: 14px;
 }
 
 
 .title {
-    font-size: 35px;
-    font-family: sans; 
-    color: #FFFFFF;
+    font-size: 40px;
+    color: white;
     border: outset 2px #FFA500;
     border-radius: 5px;
-    background-color: #000000;
-    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background: black;
+    font-weight: bold;
 } 
 
 .content {
